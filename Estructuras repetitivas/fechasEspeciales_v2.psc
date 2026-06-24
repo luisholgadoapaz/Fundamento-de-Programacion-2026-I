@@ -30,6 +30,5 @@ Algoritmo fechasEspeciales
 			mes<-mes+1
 		FinMientras
 		anioInicial<-anioInicial+1
-	FinMientras
-	
+	FinMientras	
 FinAlgoritmo
