@@ -1,11 +1,11 @@
-Algoritmo cantidad_digitos
-	Definir num,c_dig Como Entero	
+Proceso cantidad_digitos_v2
+	Definir n, c Como Entero
 	Escribir "Ingrese un numero"
-	Leer num
-	c_dig<-0
-	mientras(num<>0) hacer
-		c_dig<-c_dig+1
-		num<-trunc(num/10)		
+	Leer n
+	c=0
+	Mientras n<>0 Hacer
+		n=trunc(n/10)
+		c=c+1
 	FinMientras
-	Escribir c_dig
-FinAlgoritmo
+	Escribir c
+FinProceso
